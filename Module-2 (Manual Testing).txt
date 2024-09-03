@@ -1,0 +1,283 @@
+Module-2 (Manual Testing)
+
+1. What is Exploratory Testing?
+-> Exploratory testing is a software testing approach where testers simultaneously learn about the
+   system, design test cases, and execute them. It focuses on exploring the application without
+   predefined test cases, relying on the tester's creativity, intuition, and knowledge to uncover issues.
+
+2. What is traceability matrix?
+-> A traceability matrix is a document that maps and traces the relationship between requirements and 
+   their corresponding test cases. It ensures that all requirements are covered by tests and helps track 
+   the progress and impact of changes throughout the project.
+
+3. What is Boundary value testing?
+-> Boundary value testing is a software testing technique that focuses on testing the boundaries or 
+   edges of input ranges. It involves checking the behavior of a system at the minimum, maximum, just
+   inside/outside boundaries, and typical values, helping to identify edge cases where errors are most 
+   likely to occur.
+
+4. What is Equivalence partitioning testing?
+-> Equivalence partitioning testing is a software testing technique that divides input data into different 
+   partitions or groups, where all the values in each group are expected to behave similarly. By testing 
+   just one value from each partition, testers can reduce the number of test cases while still ensuring 
+   that different input scenarios are covered effectively.
+
+5. What is Integration testing?
+-> Integration testing is a software testing process where individual modules or components are
+   combined and tested as a group. The goal is to identify issues that occur when different parts 
+   of the system interact with each other, ensuring that integrated components work together as expected.
+
+6. What determines the level of risk?
+-> The level of risk is determined by the likelihood of an event occurring and the potential 
+   impact or severity of the consequences if it does occur.
+
+7. What is Alpha testing?
+-> Alpha testing is a type of software testing conducted by internal teams, usually in a 
+   controlled environment, to identify bugs and issues before the software is released to 
+   external users. It is the first phase of user acceptance testing and is typically performed 
+   by developers or quality assurance teams.
+
+8. What is beta testing?
+-> Beta testing is a type of software testing where a nearly complete version of the product 
+   is released to a limited group of external users outside the organization. The goal is to 
+   gather feedback on real-world usage, identify any remaining issues, and ensure the software 
+   meets user expectations before the official release.
+
+9. What is component testing?
+-> Component testing, also known as unit testing, is the process of testing individual 
+   components or modules of a software application in isolation. The goal is to verify 
+   that each component functions correctly on its own before it is integrated with other components.
+
+10. What is functional system testing?
+-> Functional system testing is a type of testing that evaluates the entire system's 
+   functionality against the specified requirements. It checks if the system performs 
+   all intended functions correctly by testing inputs, outputs, user interactions, and 
+   system behavior.
+
+11. What is Non-Functional Testing?
+-> Non-functional testing assesses the performance, usability, reliability, and other attributes
+   of a software application that are not related to specific functions or features. It focuses on 
+   how well the system performs under various conditions rather than what it does.
+
+12. What is GUI Testing?
+-> GUI testing, or Graphical User Interface testing, involves evaluating the user interface of a software 
+   application to ensure it is intuitive, functional, and meets design specifications. It checks elements 
+   like layout, buttons, menus, and responsiveness to confirm that the user experience is as intended.
+
+13. What is Adhoc testing?
+-> Ad hoc testing is an informal and unstructured testing approach where testers explore the application 
+   without predefined test cases or plans. The goal is to identify defects through spontaneous and creative 
+   testing based on the tester's intuition and experience.
+
+14. What is load testing?
+-> Load testing is a type of performance testing that evaluates how a system performs under a specific load
+   or number of concurrent users. The goal is to determine if the system can handle expected user traffic and 
+   to identify potential bottlenecks or performance issues.
+
+15. What is stress Testing?
+-> Stress testing is a type of performance testing that evaluates how a system behaves under extreme conditions,
+   such as high load or stress beyond its normal operational capacity. The goal is to identify the system's breaking
+   point and to ensure it can recover gracefully from failures or overloads.
+
+16. What is white box testing and list the types of white box testing?
+-> White box testing, also known as clear box testing, involves testing software with knowledge of its internal 
+   code and structure. Testers use this understanding to create test cases that evaluate internal logic, paths, and conditions.
+
+Types of white box testing include:
+1. Unit Testing: Testing individual components or functions of the code.
+2. Integration Testing: Testing interactions between integrated components or systems.
+3. Code Coverage Testing: Ensuring that all parts of the code are executed during testing.
+4. Path Testing: Testing all possible execution paths through the code.
+5. Branch Testing: Testing all decision branches in the code to ensure they function correctly.
+6. Condition Testing: Testing individual conditions or Boolean expressions in the code.
+
+17. What is black box testing? What are the different black box testing techniques?
+-> Black box testing is a software testing method where the tester evaluates the functionality 
+   of an application without knowledge of its internal code or structure. The focus is on testing 
+   inputs and outputs to ensure the software behaves as expected.
+
+Different black box testing techniques include:
+1. Equivalence Partitioning: Dividing input data into equivalent partitions to test one representative value from each partition.
+2. Boundary Value Analysis: Testing at the boundaries of input ranges to find edge cases.
+3. Decision Table Testing: Using decision tables to test combinations of inputs and their corresponding outputs.
+4. State Transition Testing: Testing how the system transitions between different states based on various inputs.
+5. Use Case Testing: Validating that the system performs as expected according to user scenarios or use cases.
+6. Exploratory Testing: Testing the application in an ad-hoc manner to discover defects through exploration and intuition.
+
+18. Mention what are the categories of defects?
+-> Defects in software can be categorized into the following types:
+1. Functional Defects: Issues where the software does not perform its intended functions correctly.
+2. Performance Defects: Problems related to the application's speed, responsiveness, or resource usage.
+3. Usability Defects: Issues affecting the ease of use or user experience, including confusing interfaces or difficult navigation.
+4. Compatibility Defects: Problems related to how the software interacts with different hardware, operating systems, or browsers.
+5. Security Defects: Vulnerabilities that can be exploited to compromise the application's security or data.
+6. Integration Defects: Issues arising from the interaction between different components or systems.
+7. Data Defects: Problems related to data handling, such as incorrect data processing or data corruption.
+8. Configuration Defects: Issues caused by incorrect or improper system settings or configurations.
+
+19. Mention what bigbang testing is?
+-> Big Bang testing is a software testing approach where all components or modules of the system are integrated 
+   simultaneously, and then the entire system is tested as a whole. This method contrasts with incremental integration 
+   testing, where components are integrated and tested progressively. The main risk with Big Bang testing is that it can make 
+   it difficult to isolate and identify the source of defects since all parts of the system are tested together.
+
+20. What is the purpose of exit criteria?
+-> The purpose of exit criteria is to define the conditions that must be met before a testing phase or project 
+   can be considered complete. These criteria help ensure that testing is thorough and that the software meets 
+   the required quality standards before moving on to the next phase or releasing the product. Exit criteria typically 
+   include metrics like defect rates, test coverage, and successful completion of test cases.
+
+21. When should "Regression Testing" be performed?
+-> Regression testing should be performed after any changes to the software, such as bug fixes, enhancements, 
+   or updates, to ensure that the new changes have not adversely affected existing functionality.
+
+22. What is 7 key principles? Explain in detail?
+-> The "7 Key Principles" in software testing typically refer to the foundational guidelines that ensure effective testing practices. They include:
+
+1. Early Testing: Testing should start as early as possible in the development cycle to identify defects early and reduce the cost of fixing them.
+2. Defect Clustering: Most defects are often found in a small number of modules or components, so focus testing efforts where defects are most likely.
+3. Pesticide Paradox: Running the same set of tests repeatedly will not uncover new defects. To find new issues, tests need to be updated and expanded.
+4. Testing Shows Presence of Defects: Testing can only show the presence of defects, not their absence. It’s not possible to prove that software is defect-free, only that it has passed certain tests.
+5. Absence-of-errors Fallacy: Even if no defects are found, it doesn’t mean the software is good or meets user needs. It’s essential to ensure the software meets the specified requirements and user expectations.
+6. Test to Understand the Requirements: Tests should be designed based on understanding the requirements and expected behavior of the system.
+7. Testing is Context-Dependent: Testing practices and approaches should be adapted based on the specific context, including the type of software, development process, and project requirements.
+
+These principles help guide effective testing and improve software quality.
+
+23. Difference between QA v/s QC v/s Tester?
+-> Quality Assurance (QA): Focuses on ensuring that the development and testing processes are effective and adhere to standards to prevent defects. QA is proactive and process-oriented.
+   Quality Control (QC): Involves the actual testing of the software to identify defects. QC is reactive and product-oriented, focusing on finding and fixing defects in the final product.
+   Tester: Executes test cases to find defects in the software based on predefined requirements. Testers are responsible for verifying the software's functionality and reporting issues.
+
+24. Difference between Smoke and Sanity?
+-> Smoke Testing: A preliminary test to check if the basic functionalities of the application are working correctly. It's a broad and shallow test, performed to ensure the build is stable enough for further testing.
+   Sanity Testing: A more focused test conducted after receiving a bug fix or a minor change to verify that specific issues have been resolved and that no new defects have been introduced. It’s deeper but narrower than smoke testing.
+
+25. Difference between verification and Validation?
+-> Verification: Ensures that the software meets specified requirements and design specifications. It is the process of checking if the product is being built correctly, typically through reviews, inspections, and testing.
+   Validation: Ensures that the software meets the needs and expectations of the end users. It is the process of checking if the right product is being built and typically involves testing the software in real-world scenarios.
+
+26. Explain types of Performance testing.
+-> The main types of performance testing are:
+1. Load Testing: Evaluates how the system performs under expected user loads to ensure it can handle anticipated traffic.
+2. Stress Testing: Tests the system under extreme conditions or beyond normal operational capacity to identify its breaking point and recovery capabilities.
+3. Scalability Testing: Assesses the system’s ability to scale up or down in response to increased or decreased loads.
+4. Volume Testing: Checks how the system handles large volumes of data and performs with high data loads.
+5. Endurance Testing: Evaluates the system's performance over an extended period to identify potential issues that may occur over time.
+
+27. What is Error, Defect, Bug and failure?
+-> Error: A mistake made by a developer while writing code, leading to incorrect behavior.
+   Defect: A flaw or imperfection in the software that causes it to not meet the specified requirements.
+   Bug: A term often used interchangeably with defect, referring to any unintended behavior or issue in the software.
+   Failure: The manifestation of a defect or bug during execution, where the software does not perform as expected or intended.
+
+28. Difference between Priority and Severity
+-> Priority: Indicates the importance of fixing a defect and how quickly it should be addressed based on its impact on the project or business. It is determined by the defect's effect on project goals and timelines.
+   Severity: Refers to the impact of a defect on the application's functionality or performance. It measures how serious the defect is in terms of its technical impact on the system.
+
+29. What is Bug Life Cycle?
+-> The bug life cycle is the sequence of stages that a defect goes through from discovery to resolution. It typically includes stages such as:
+1. New: The defect is reported and logged.
+2. Assigned: The defect is assigned to a developer for fixing.
+3. In Progress: The developer is working on resolving the defect.
+4. Fixed: The defect has been addressed and fixed by the developer.
+5. Pending Verification: The fix is ready for testing to confirm the defect is resolved.
+6. Verified: The defect has been confirmed as resolved through testing.
+7. Closed: The defect is considered resolved and closed if no further issues are found.
+8. Reopened: If the defect persists or reoccurs, it may be reopened for further investigation.
+
+30. Explain the difference between Functional testing and NonFunctional testing?
+-> Functional Testing : Evaluates the software's functionality against specified requirements. It checks if the system performs the intended functions correctly, focusing on inputs, outputs, and user interactions.
+   Non-Functional Testing : Assesses the software's attributes beyond functionality, such as performance, usability, security, and compatibility. It evaluates how well the system performs under various conditions and its overall user experience.
+
+31. What is the difference between the STLC (Software Testing Life Cycle) and SDLC (Software Development Life Cycle)?
+-> SDLC (Software Development Life Cycle): Refers to the overall process of developing software, including stages like requirement analysis, design, coding, testing, deployment, and maintenance. It covers the entire lifecycle of the software from concept to delivery and beyond.
+   STLC (Software Testing Life Cycle): Is a subset of the SDLC that focuses specifically on the testing phases. It includes stages like requirement analysis, test planning, test case development, environment setup, test execution, and test closure, ensuring the software meets quality standards before release.
+
+32. What is the difference between test scenarios, test cases, and test script?
+-> Test Scenario: A high-level description of what needs to be tested, often based on user requirements or functionality. It outlines a specific situation or feature to be tested.
+   Test Case: A detailed set of conditions, inputs, and expected results used to verify a specific aspect of the application. It includes steps to execute the test and criteria for success or failure.
+   Test Script: An automated or manual script that contains the precise instructions and code needed to perform a test. It’s often used in automated testing to execute test cases programmatically.
+
+33. Explain what Test Plan is? What is the information that should be covered.
+-> Test Plan is a document that outlines the strategy, objectives, resources, and schedule for testing activities in a project. It serves as a roadmap for the testing process and ensures that all aspects of testing are organized and executed systematically.
+
+Key information covered in a Test Plan includes:
+
+1. Test Objectives: The goals and what is to be achieved by testing.
+2. Scope: The features and functionalities to be tested and not tested.
+3. Test Strategy: The overall approach to testing, including methods and levels.
+4. Test Environment: Details of the hardware, software, and network setup needed for testing.
+5. Resources: The team members, tools, and materials required for testing.
+6. Schedule: The timeline for test activities, including milestones and deadlines.
+7. Test Deliverables: Documents, reports, and outputs to be produced from testing.
+8. Risks and Contingencies: Potential risks and the plans to mitigate them.
+9. Criteria for Acceptance: The standards that must be met for the software to be considered acceptable or ready for release. 
+
+34. What is priority?
+-> Priority in software testing refers to the urgency and importance of fixing a defect. It indicates
+   how soon the defect should be addressed based on its impact on the project or business. High-priority 
+   defects are fixed first as they affect critical functionality or project timelines.
+
+35. What is severity?
+-> Severity in software testing refers to the impact of a defect on the application's functionality 
+   or performance. It measures how serious the defect is in terms of disrupting the system. High-severity 
+   defects cause significant problems, such as system crashes or data loss, while low-severity defects have minimal impact.
+
+36. Bug categories are…
+-> Bug categories include:
+1. Functional Bugs: Issues where the software does not perform its intended functions.
+2. Performance Bugs: Problems related to speed, responsiveness, or resource usage.
+3. Usability Bugs: Issues affecting the user interface or user experience.
+4. Compatibility Bugs: Problems with software working across different devices, browsers, or platforms.
+5. Security Bugs: Vulnerabilities that compromise the security of the application.
+6. Data Bugs: Errors related to data handling, such as incorrect data processing or storage.
+7. Configuration Bugs: Issues caused by incorrect system settings or configurations.
+
+37. Advantage of Bugzila .
+-> Bugzilla offers several advantages:
+1. Efficient Bug Tracking: Provides a centralized system for tracking and managing bugs throughout the software development process.
+2. Customizable Workflows: Allows customization of workflows and processes to fit different project needs.
+3. Comprehensive Reporting: Generates detailed reports and metrics on bug status, severity, and trends.
+4. Email Notifications: Automatically sends notifications to team members about updates, ensuring effective communication.
+5. Open Source: Free to use and supported by a large community, making it cost-effective and flexible.
+
+38. Difference between priority and severity.
+-> Priority: Refers to the urgency of fixing a defect, determined by its impact on project timelines or business goals. High-priority defects are addressed quickly.
+   Severity: Refers to the impact of a defect on the application's functionality. High-severity defects cause significant issues like crashes or data loss, regardless of urgency.
+
+39. What are the different Methodologies in Agile Development Model?
+-> Different methodologies in the Agile Development Model include:
+1. Scrum: Focuses on iterative development with time-boxed sprints, daily stand-ups, and roles like Scrum Master and Product Owner.
+2. Kanban: Emphasizes continuous delivery and visualizes work using a Kanban board to manage flow.
+3. Extreme Programming (XP): Stresses technical excellence with practices like pair programming, test-driven development, and frequent releases.
+4. Lean Software Development: Focuses on maximizing value by eliminating waste, improving flow, and empowering teams.
+5. Crystal: A family of methodologies that are adaptable based on project size and criticality, focusing on people and interaction.
+6. Feature-Driven Development (FDD): Centers on designing and building features in a systematic, incremental manner.
+
+40. Explain the difference between Authorization and Authentication in Web testing.What are the common problems faced in Web testing?
+-> Authentication: The process of verifying the identity of a user or system, ensuring that the entity is who it claims to be. This is typically done through passwords, biometrics, or tokens.
+   Authorization: The process of determining what actions or resources an authenticated user or system is permitted to access. It controls permissions based on roles or policies.
+
+1. Broken Links: Links that lead to non-existent pages or resources.
+2. Cross-Browser Compatibility: Ensuring the website works correctly across different web browsers.
+3. Performance Issues: Slow loading times, poor response times, and high latency.
+4. Security Vulnerabilities: Risks like SQL injection, XSS (Cross-Site Scripting), and data breaches.
+5. Responsive Design: Ensuring the website displays correctly on various screen sizes and devices.
+6. Usability Issues: Problems that affect user experience, such as confusing navigation or inconsistent design.
+
+41. When to used Usablity Testing?
+-> Usability testing should be used during the development process to evaluate how easy and intuitive a software 
+   application is for end users. It is typically conducted with real users to identify and address issues related to 
+   user experience, navigation, and overall interaction before the product is finalized and released.
+
+42. What is the procedure for GUI Testing?
+-> The procedure for GUI testing typically involves:
+
+1. Understanding Requirements: Review design specifications and user requirements for the GUI.
+2. Test Planning: Define test objectives, scope, and test cases focusing on GUI elements.
+3. Test Case Development: Create test cases that cover various GUI components, such as buttons, menus, and forms.
+4. Test Execution: Execute the test cases to interact with and evaluate the GUI.
+5. Defect Reporting: Log any issues or inconsistencies found during testing.
+6. Retesting: Verify that reported issues are resolved and that the GUI functions correctly after fixes.
+7. Test Closure: Document the test results and perform any necessary follow-up tasks.
